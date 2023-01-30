@@ -1,0 +1,183 @@
+.hero{
+  background-image: url(./img/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+height: 550px;
+position: relative;
+}
+.hero_title{
+  position: absolute;
+font-weight: 700;
+font-size: 64px;
+line-height: 150%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+max-width: 573px;
+left: 8%;
+top: 30%;
+
+}
+.card__list{
+  display: flex;
+  max-width: 1000px;
+gap: 30px;
+list-style: none;
+position: absolute;
+right: 11%;
+bottom: -50%;
+}
+.top_card{
+  max-width: 300px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+.crad_img{
+  max-width: 300px;
+  height: 200px;
+}
+.card_title{
+  height: 50px;
+  overflow:hidden;
+
+}
+.card_aksiya{
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.aksiya_narx{
+  color: cornflowerblue;
+max-width: 100px;
+margin-left: 110px;
+}
+.karzinaplus{
+  padding: 15PX;
+background-repeat: no-repeat;
+background-size: contain;
+  border: 1px transparent;
+  background-image: url(./img/karzina.svg);
+
+}
+.best__title{
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 52px;
+color: #22262A;
+margin: 321px auto 0 auto;
+max-width: 240px;
+}
+.category__list{
+list-style: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.category{
+cursor: pointer;
+border: transparent;
+transition: 1s all;
+background-color: #fff; 
+border-radius: 15px;
+}
+.category:hover{
+  background-color:aqua;
+}
+.category:active{
+  background-color: blue;
+}
+.list__image{
+max-width: 220px;
+ height: 272px;
+}
+.list__title{
+  font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.5px;
+color: #223263;
+max-width: 300px;
+overflow: hidden;
+height: 20px;
+}
+.product__list{
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px auto 0 auto;
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+}
+.prise_skidka{
+  font-weight: 700;
+font-size: 18px;
+line-height: 180%;
+letter-spacing: 0.5px;
+color: #40BFFF;
+}
+.prise__del{
+  
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0.5px;
+text-decoration-line: line-through;
+color: #9098B1;
+margin-right: 8px;
+margin-left: 13px;
+}
+.aksiya__24{ 
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0.5px;
+color: #FB7181;
+}
+.karzinaplus{
+  cursor: pointer;
+  margin-right: auto;
+  
+}
+.karzinaplus:active{
+  background-color: red;
+}
+.load{
+  font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #33A0FF;
+width: 100%;
+text-align: center;
+border: transparent;
+background-color: #fff;
+transition: all 0.3s;
+border-radius: 20px;
+}
+.load:active{
+  background-color: #223263;
+}
+.search__form{
+ margin-top: 20px;
+  text-align: center;
+}
+.search{
+  border: 1px solid #40BFFF;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+.search__btn{
+  background-color:#40BFFF ;
+  border: 1px solid #40BFFF;
+  color: #FFFFFF;
+  padding: 5px;
+}
+.item2{
+  height: 400px;
+}

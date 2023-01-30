@@ -1,0 +1,85 @@
+.navbar{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.item{
+display: grid;
+grid-template-columns: 2fr 2fr;
+  align-items: center;
+}
+.image{
+  max-width: 150px;
+
+}
+.box1{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.delbtn{
+ color: #FF6875;
+ font-size: 20px;
+  border: 1px transparent;
+  background-color: #fff;
+}.delbtn:active{
+  background-color: red;
+}
+.title{
+  max-width: 190px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #262626;
+}
+.box2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.unit__count{
+  font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #262626;
+}
+.count__box{
+  display: flex;
+  background-color: #F6F7F8;
+  gap: 10px;
+  align-items: center;
+ max-width: 100px;
+ padding: 5px;
+ justify-content: center;
+}
+.btn__plus{
+  font-size: 20px;
+  border: solid 1px transparent;
+  background-color: transparent;
+  color:  #33A0FF;
+  border-radius: 5px;
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #262626;
+margin-bottom: 20px;
+}
+.end__list{
+  max-width: 300px;
+margin-left: auto;
+
+}
+.ent__btn{
+  background: #33A0FF;
+  padding: 16px 115px;
+  border-radius: 10px;
+  border: 1px transparent solid;
+
+}
+.ent__btn:active{
+  background-color: #fff;
+}

@@ -1,0 +1,8 @@
+.containet{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #BCDDFE;
+  padding:  160px 150px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
